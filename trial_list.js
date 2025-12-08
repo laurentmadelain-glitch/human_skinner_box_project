@@ -2,43 +2,43 @@ const trial_list = [
   {
     trial: 0,
     type: "vi",
-    interval_min: 5_000,
-    interval_max: 5_000,
-    block_duration: 140_000,
-    key_id: "right"
+    interval_min: 30_000,
+    interval_max: 30_000,
+    block_duration: 600_000,
+    key_id: "center"
   },
+  // {
+  //   trial: 1,
+  //   type: "vi",
+  //   interval_min: 30_000,
+  //   interval_max: 30_000,
+  //   block_duration: 40_000,
+  //   key_id: "left"
+  // },
+  // {
+  //   trial: 2,
+  //   type: "vi",
+  //   interval_min: 5_000,
+  //   interval_max: 5_000,
+  //   block_duration: 140_000,
+  //   key_id: "right"
+  // },
+  // {
+  //   trial: 3,
+  //   type: "vi",
+  //   interval_min: 30_000,
+  //   interval_max: 30_000,
+  //   block_duration: 140_000,
+  //   key_id: "left"
+  // },
   {
     trial: 1,
-    type: "vi",
-    interval_min: 30_000,
-    interval_max: 30_000,
-    block_duration: 140_000,
-    key_id: "left"
-  },
-  {
-    trial: 2,
-    type: "vi",
-    interval_min: 5_000,
-    interval_max: 5_000,
-    block_duration: 140_000,
-    key_id: "right"
-  },
-  {
-    trial: 3,
-    type: "vi",
-    interval_min: 30_000,
-    interval_max: 30_000,
-    block_duration: 140_000,
-    key_id: "left"
-  },
-  {
-    trial: 4,
     type: "extinction",
     block_duration: 60_000,
     key_id: "center"
   },
   {
-    trial: 5,
+    trial: 2,
     type: "session_end",
     block_duration: 1000,
     key_id: "center"

@@ -180,7 +180,7 @@ const SessionManager = (() => {
     }
 
     blockIndex += 1;
-    currentTrial = blockIndex;
+    //currentTrial = blockIndex;
 
     const totalBlocks = trial_list?.length || 0;
     //console.log(`[gotoNextBlock] blockIndex=${blockIndex}, totalBlocks=${totalBlocks}`);
